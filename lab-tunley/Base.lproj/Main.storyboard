@@ -234,11 +234,27 @@
             </objects>
             <point key="canvasLocation" x="2750.3816793893129" y="3.5211267605633805"/>
         </scene>
-        <!--Item-->
+        <!--View Controller-->
+        <scene sceneID="YLC-tl-0oS">
+            <objects>
+                <viewController id="6hV-ol-Zon" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Co5-1x-Udb">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Re7-BK-N8s"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="iUd-yr-QtW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VnJ-Wp-AT4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4397.7099236641216" y="-13.380281690140846"/>
+        </scene>
+        <!--Track-->
         <scene sceneID="pe2-cI-OjY">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UX2-aM-6IO" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="87m-3B-aLW"/>
+                    <tabBarItem key="tabBarItem" title="Track" image="music.note.list" catalog="system" id="87m-3B-aLW"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ma7-vM-Cho">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -258,20 +274,41 @@
             <objects>
                 <tabBarController title="Tracks" automaticallyAdjustsScrollViewInsets="NO" id="uzD-vv-xAz" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionIndicatorImage="music.note.list" catalog="system" id="4er-JJ-kqE">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4er-JJ-kqE">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="UX2-aM-6IO" kind="relationship" relationship="viewControllers" id="wXE-Gs-hLi"/>
+                        <segue destination="B1i-kX-eqR" kind="relationship" relationship="viewControllers" id="Wvz-tW-A8Y"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zcm-P3-REL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="200.76335877862596" y="3.5211267605633805"/>
         </scene>
+        <!--Album-->
+        <scene sceneID="9Ym-j1-sqr">
+            <objects>
+                <navigationController title="Album" automaticallyAdjustsScrollViewInsets="NO" id="B1i-kX-eqR" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Album" image="guitars.fill" catalog="system" id="vib-9t-Otg"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Bqu-eu-nia">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="6hV-ol-Zon" kind="relationship" relationship="rootViewController" id="kYW-RH-dVK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UZx-nB-z5e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3470.9923664122134" y="-13.380281690140846"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="guitars.fill" catalog="system" width="128" height="98"/>
         <image name="music.note.list" catalog="system" width="128" height="115"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

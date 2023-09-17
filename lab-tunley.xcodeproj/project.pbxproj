@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C8234602AB7A2390088B809 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C82345F2AB7A2390088B809 /* AlbumViewController.swift */; };
 		CB7254DF2939D37800F531FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7254DE2939D37800F531FB /* AppDelegate.swift */; };
 		CB7254E12939D37800F531FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7254E02939D37800F531FB /* SceneDelegate.swift */; };
 		CB7254E32939D37800F531FB /* TracksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7254E22939D37800F531FB /* TracksViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C82345F2AB7A2390088B809 /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
 		CB7254DB2939D37800F531FB /* lab-tunley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lab-tunley.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB7254DE2939D37800F531FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB7254E02939D37800F531FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				CB7254DE2939D37800F531FB /* AppDelegate.swift */,
 				CB7254E02939D37800F531FB /* SceneDelegate.swift */,
 				CB7254E42939D37800F531FB /* Main.storyboard */,
+				2C82345F2AB7A2390088B809 /* AlbumViewController.swift */,
 				CB7254E72939D37A00F531FB /* Assets.xcassets */,
 				CB7254E92939D37A00F531FB /* LaunchScreen.storyboard */,
 				CB7254EC2939D37A00F531FB /* Info.plist */,
@@ -169,6 +172,7 @@
 				CB8B1547293EFCA100397B69 /* DetailViewController.swift in Sources */,
 				CB7254E12939D37800F531FB /* SceneDelegate.swift in Sources */,
 				CB7254F6293B224000F531FB /* Track.swift in Sources */,
+				2C8234602AB7A2390088B809 /* AlbumViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
